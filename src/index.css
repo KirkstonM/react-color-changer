@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+form{
+    text-align: center;
+}
+
+input{
+    width: 15rem; 
+}
+
+.input{
+    border: 2px solid red;
+}
+
+.color-section{
+    padding: 1rem;
+    display: grid;
+    grid-template: auto auto/repeat(6, 1fr);
+    margin-top: 2rem;
+}
+.colors{
+    width: 13.8rem;
+    height: 8rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.clipboard{
+    color: red;
+    font-weight: bolder;
+}
+
+.color-light{
+    color: white;
+}
+
+p{
+    font-weight: bold;
+}
